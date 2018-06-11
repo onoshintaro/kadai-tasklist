@@ -27,4 +27,7 @@
     
     {!! link_to_route('tasks.create', '新規タスクの登録', null, ['class' => 'btn btn-primary']) !!}
 
+{!! $tasks->render() !!}
 @endsection
+
+
